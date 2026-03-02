@@ -1,0 +1,31 @@
+# ═══════════════════════════════════════════════════════════════
+# BeamScan Simulation Request
+# ═══════════════════════════════════════════════════════════════
+
+author: "Tomás Blanco"
+
+description: "Comparative scattering analysis between Fe2O3 and Aluminium at multiple beam energies"
+
+# ─── Beam Settings ───
+beam:
+  particle: "e-"            
+  momenta_GeV: [2.0, 4.0, 6.0]  
+  num_events: 10000         
+
+# ─── Target Materials ───
+materials:
+  - name: "Fe2O3"
+    geant4_name: "G4_FERRIC_OXIDE"
+    thickness_mm: 10.0
+
+  - name: "Aluminium"
+    geant4_name: "G4_Al"
+    thickness_mm: 10.0
+
+# ─── What to produce ───
+outputs:
+  highland_prediction: true
+  geant4_simulation: false
+  classification_plot: true
+  distribution_overlay: true
+  comparison_table: true
