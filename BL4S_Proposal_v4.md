@@ -16,7 +16,7 @@ Can we build a "BeamScan Atlas" — a classification chart that identifies mater
 
 When a charged particle travels through matter at GeV-scale energies, it does not go straight — it deflects slightly each time it passes near an atomic nucleus. The cumulative effect of thousands of these tiny deflections is called multiple Coulomb scattering (MCS). The resulting angular spread θ₀ follows the Highland formula:
 
-<img width="470" height="269" alt="θ₀ ≈ (13 6 MeV  p) · √(xX₀) ·  1 + 0 038 · ln(xX₀)" src="https://github.com/user-attachments/assets/a235afa4-a6a9-4aad-b639-27e31292b99e" />
+$$\theta_0 \approx \frac{13.6 \text{ MeV}}{p\beta c} \sqrt{\frac{x}{X_0}} \left[1 + 0.038 \ln\left(\frac{x}{X_0}\right)\right]$$
 
 ### Predicted Separation
 
