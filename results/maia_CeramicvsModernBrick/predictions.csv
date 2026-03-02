@@ -1,0 +1,5 @@
+material,geant4_name,category,X0_cm,rho_gcc,thickness_mm,p_GeV,theta0_mrad,dE_MeV
+Traditional ceramic (custom clay),CUSTOM_TRADITIONAL_CERAMIC,custom,24.0,1.95,15.0,3.0,1.0139,5.85
+Traditional ceramic (custom clay),CUSTOM_TRADITIONAL_CERAMIC,custom,24.0,1.95,15.0,6.0,0.5070,5.85
+Modern brick (silica-based),G4_SILICON_DIOXIDE,heritage,12.29,2.2,15.0,3.0,1.4572,6.60
+Modern brick (silica-based),G4_SILICON_DIOXIDE,heritage,12.29,2.2,15.0,6.0,0.7286,6.60
