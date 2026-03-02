@@ -2,7 +2,7 @@
 
 **Author:** Federico_Bustillo  
 **Description:** Comparison between polyethylene (PE) and polyvinyl chloride (PVC) using electron beams.  
-**Generated:** 2026-03-02 15:08 UTC  
+**Generated:** 2026-03-02 15:10 UTC  
 **Method:** Highland formula (analytical)
 
 ## Beam Settings
