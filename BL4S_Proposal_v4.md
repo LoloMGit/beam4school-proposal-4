@@ -18,6 +18,8 @@ When a charged particle travels through matter at GeV-scale energies, it does no
 
 $$\theta_0 \approx \frac{13.6 \text{ MeV}}{p\beta c} \sqrt{\frac{x}{X_0}} \left[1 + 0.038 \ln\left(\frac{x}{X_0}\right)\right]$$
 
+where *p* is the beam momentum, *βc* the particle velocity, *x* the target thickness, and *X₀* the material radiation length.
+
 ### Predicted Separation
 
 Using the Highland formula with PDG radiation lengths, we calculated expected scattering angles at 3 GeV/c through 10 mm targets. The results split naturally into two families: 
