@@ -2,7 +2,7 @@
 
 **Author:** Lorenzo Medina Giovanini  
 **Description:** 2D scan of CaCO3 (calcite/marble): sweeping thickness from 5 to 25 mm at three momenta (3.0, 4.5, 6.0 GeV/c). Goal: map how scattering angle depends jointly on sample thickness and beam momentum for a heritage/geological reference material.  
-**Generated:** 2026-03-02 14:42 UTC  
+**Generated:** 2026-03-02 14:48 UTC  
 **Method:** Highland formula (analytical)
 
 ## Beam Settings
