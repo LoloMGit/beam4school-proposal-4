@@ -1,17 +1,16 @@
 # Can MCS distinguish archaeological ceramics from modern brick?
 #
 # Traditional Comechingón ceramics were made from natural
-# clay mixtures with mineral inclusions (quartz, calcite,
-# iron oxides). Modern industrial bricks are manufactured
-# with controlled composition and higher compaction.
+# clay mixtures containing quartz, aluminosilicates,
+# and iron oxides. Their composition and compaction differ
+# from modern industrial bricks.
 #
-# Differences in mineral composition and density affect
-# radiation length (X0) and therefore angular dispersion.
-# If measurable, MCS could provide a non-destructive tool
-# for archaeological authentication.
+# Differences in radiation length (X0) and density affect
+# angular dispersion. If measurable, MCS could provide
+# a non-destructive tool for archaeological authentication.
 
 author: "Your Name"
-description: "Traditional ceramic vs modern brick discrimination using MCS"
+description: "Custom traditional ceramic vs modern brick using MCS"
 
 beam:
   particle: "e-"
@@ -19,10 +18,14 @@ beam:
   num_events: 10000
 
 materials:
-  - name: "Traditional ceramic (clay-like)"
-    geant4_name: "G4_Pyrex_Glass"
+  - name: "Traditional ceramic (custom clay)"
+    geant4_name: "CUSTOM_TRADITIONAL_CERAMIC"
     thickness_mm: 15.0
-  - name: "Modern brick (silicate-rich)"
+    x0_cm: 24.0
+    rho: 1.95
+    category: "custom"
+
+  - name: "Modern brick (silica-based)"
     geant4_name: "G4_SILICON_DIOXIDE"
     thickness_mm: 15.0
 
@@ -31,3 +34,4 @@ outputs:
   classification_plot: true
   distribution_overlay: true
   comparison_table: true
+  
