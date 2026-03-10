@@ -9,7 +9,7 @@
 ![Team 2026](docs/figures/teamcoaches2026.png)
 
 **Instituto San Francisco de Asís, Santa Rosa de Calamuchita, Córdoba, Argentina.**
-**March 2026.**
+**March 2026**
 
 
 ## 1. Motivación para Participar
