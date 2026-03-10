@@ -88,5 +88,5 @@ jobs:
             }
             git push && exit 0
             sleep 2
-         done
-         echo "Failed to push after 3 attempts" && exit 1
+          done
+          echo "Failed to push after 3 attempts" && exit 1
