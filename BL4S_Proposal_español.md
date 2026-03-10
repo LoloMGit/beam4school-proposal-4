@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔬 BeamScan: Un Clasificador de Materiales por Haz de Partículas — Del Reciclaje al Patrimonio Cultural
+# BeamScan: Un Clasificador de Materiales por Haz de Partículas — Del Reciclaje al Patrimonio Cultural
 
 **Equipo:** Álvarez Jeremías, Baraldo Vargas Paula, Blanco Tomás, Bustillo Federico, Carabajal Ricardo, Cores Fiorella, Medina Giovanini Lorenzo, Rodríguez Matías, Yallbi Maia.
 **Coaches:** García Iskya, Rodríguez Agustina
