@@ -1,5 +1,0 @@
-grep -n "11\|12" README.md | grep -i "material"
-grep "X₀" requests/template.yaml | grep -v "^#$"
-grep "gun/position" scripts/generate_macros.py
-grep -n "~50\|~83" BL4S_Proposal_v4.md docs/slides/BeamScan-Overview.marp.md
-grep -n "DWC gas\|Ar/CO2 density" simulation/src/DetectorConstruction.cc
