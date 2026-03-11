@@ -12,7 +12,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'BL4S_Proposal_v4.md'
+      - 'BL4S_Proposal.md'
       - 'BL4S_Proposal_español.md'
       - 'docs/slides/BeamScan-Overview.marp.md'
       - 'docs/slides/BeamScan-TechDeep.marp.md'
