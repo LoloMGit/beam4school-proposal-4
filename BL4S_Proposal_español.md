@@ -29,13 +29,13 @@ Somos estudiantes y docentes del Instituto San Francisco de Asís en Santa Rosa 
 
 Cuando una partícula cargada viaja a través de la materia a energías del orden de los GeV, no sigue una trayectoria recta — se desvía levemente cada vez que pasa cerca de un núcleo atómico. El efecto acumulativo de miles de estas pequeñas desviaciones se denomina dispersión múltiple de Coulomb (MCS) [2]. La dispersión angular resultante θ₀ sigue la fórmula de Highland:
 
-![Highland formula](docs/figures/esp_highland.png)
+![Fórmula de Highland](docs/figures/esp_highland.png)
 
 ## Separación Predicha
 
 Usando la fórmula de Highland con las longitudes de radiación del PDG [3], calculamos los ángulos de dispersión esperados a 3 GeV/c en blancos de 10 mm. Los resultados se dividen naturalmente en dos familias: Plásticos (C, H, O, N — átomos livianos, X₀ largo): PE y PP se ubican en θ₀ ≈ 0,56 mrad, característicos del carbono-hidrógeno puro. PS, PMMA y PET siguen entre 0,60 y 0,74 mrad. El PVC se destaca en θ₀ ≈ 0,90 mrad — su átomo de cloro (Z = 17) aumenta dramáticamente la dispersión. Materiales geológicos (Si, Ca, Al, Fe): cuarzo, calcita, alúmina y óxido de hierro dispersan a θ₀ = 1,17–2,38 mrad, bien separados del grupo de plásticos. Esa brecha es, en sí misma, el resultado científico: el MCS ordena naturalmente los materiales por composición. Nuestras simulaciones en Geant4 [4] confirman que incluso los pares más cercanos (PS vs PMMA) necesitan menos de 2.000 eventos a 3σ — segundos de tiempo de haz. PVC versus PE necesita solo ~50 eventos. El atlas completo requiere menos de una hora de datos.
 
-![Discrimination matrix](docs/figures/discrimination_matrix.png)
+![Matriz de discriminación](docs/figures/discrimination_matrix.png)
 
 Figura 1: Matriz de discriminación. Número de eventos necesarios para una separación de 3σ entre cada par de materiales a 3 GeV/c, 10 mm de espesor. PE/PP es el par más difícil de distinguir; la mayoría de las separaciones entre familias requieren menos de 100 eventos.
 
@@ -43,7 +43,7 @@ Figura 1: Matriz de discriminación. Número de eventos necesarios para una sepa
 
 Nuestra medición central requiere únicamente cuatro Delay Wire Chambers (DWCs) [5] y un soporte de blancos — equipamiento estándar en todas las instalaciones de BL4S:
 
-![BeamScan experimental setup](docs/figures/setup_schematic.png)
+![Configuración experimental de BeamScan](docs/figures/setup_schematic.png)
 
 Figura 2: Representación esquemática de la configuración experimental de BeamScan (independiente de la instalación).
 
@@ -56,13 +56,13 @@ El CERN y DESY aceptan únicamente blancos no combustibles; ELSA también permit
 
 ## Programa de Medición
 
-![Measurement phases and goals](docs/figures/mediciones_esp.png)
+![Fases de medición y objetivos](docs/figures/mediciones_esp.png)
 
 ## El Producto: BeamScan Atlas
 
 Una tabla de clasificación y gráfico de θ₀ (y X₀ extraída) para cada material. Cada punto de datos tiene una interpretación física, una aplicación en el mundo real y una predicción de simulación con la que comparar. De estar disponible, un segundo eje (p. ej. dE/dx o respuesta del calorímetro) fortalece la clasificación. El atlas es un resultado científico, una referencia práctica y una visualización memorable.
 
-![Physics explanation gap](docs/figures/physics_explanation_gap.png)
+![Explicación física del gap](docs/figures/physics_explanation_gap.png)
 
 Figura 3: Separación natural de materiales y diferencia resultante en el ángulo de dispersión. Izquierda: La longitud de radiación frente al número atómico efectivo muestra una clara separación entre los materiales orgánicos (bajo Z) e inorgánicos (alto Z). Derecha: Los ángulos de dispersión correspondientes a 3 GeV/c (10 mm de espesor) revelan una diferencia natural entre las dos clases de materiales.
 
@@ -70,7 +70,7 @@ Figura 3: Separación natural de materiales y diferencia resultante en el ángul
 
 Hemos construido una simulación Monte Carlo en Geant4 del experimento completo, publicada en un repositorio público de GitHub. Cada figura puede reproducirse editando un archivo YAML simple — sin necesidad de utilizar C++ ni Geant4. Nuestras simulaciones (Geant4 11.3.2, FTFP_BERT, 2.000 eventos por configuración) validan las predicciones de Highland: en 10 de 11 materiales a dos momentos, Geant4 supera consistentemente a Highland en un 12 ± 3%, atribuible a la dispersión nuclear elástica que la fórmula analítica omite. La excepción es Fe₂O₃, donde la relación sube a ~1,4–1,5 — evidenciando la mayor sección eficaz hadrónica de los núcleos de hierro —un resultado que también puede medirse con la misma configuración. Este desvío calibrará nuestro análisis: comparar datos reales con Highland y Geant4 nos permitirá separar aproximaciones analíticas de efectos genuinos del detector.
 
-![Geant4 Highland ratio](docs/figures/geant4_highland_ratio.png)
+![Relación Geant4 Highland](docs/figures/geant4_highland_ratio.png)
 
 Figura 4: Relación Geant4/Highland para todos los materiales a 3 y 6 GeV/c. La mayoría de los materiales cae dentro de la banda del 12 ± 3%, consistente con la dispersión nuclear elástica omitida por Highland. Fe₂O₃ es una anomalía clara, que revela la mayor sección eficaz hadrónica de los núcleos de hierro.
 
