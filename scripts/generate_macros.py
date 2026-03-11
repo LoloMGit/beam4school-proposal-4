@@ -95,7 +95,7 @@ def generate_macro(config, output_path):
 /gun/particle {particle}
 /gun/energy {kin_MeV:.6f} MeV
 /gun/direction 0 0 1
-/gun/position 0 0 -50 cm
+/gun/position 0 0 -80 cm
 
 # Output file
 /beamscan/output/filename {config['output_csv']}

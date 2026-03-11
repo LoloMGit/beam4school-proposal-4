@@ -2,7 +2,7 @@
 
 **Author:** María García  
 **Description:** Comparing PVC detection at different beam energies  
-**Generated:** 2026-02-27 22:57 UTC  
+**Generated:** 2026-03-10 11:02 UTC  
 **Method:** Highland formula (analytical)
 
 ## Beam Settings

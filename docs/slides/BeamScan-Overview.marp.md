@@ -164,7 +164,7 @@ Where: $x$ = thickness, $X_0$ = radiation length (material property), $p$ = mome
 
 ✅ 7 plastics + 4 minerals fully separable
 
-✅ PVC detection needs only ~50 events (seconds of beam time)
+✅ PVC detection needs only ~83 events (seconds of beam time)
 
 ✅ Full atlas in under 1 hour
 

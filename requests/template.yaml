@@ -61,13 +61,13 @@ outputs:
 #   - name: "PMMA"    geant4_name: "G4_PLEXIGLASS"           # X₀ = 34.4 cm
 #   - name: "Nylon"   geant4_name: "G4_NYLON-6-6"            # X₀ = 36.7 cm
 #   - name: "PET"     geant4_name: "G4_MYLAR"                # X₀ = 28.7 cm
-#   - name: "PVC"     geant4_name: "G4_POLYVINYL_CHLORIDE"   # X₀ = 15.3 cm
+#   - name: "PVC"     geant4_name: "G4_POLYVINYL_CHLORIDE"   # X₀ = 19.9 cm
 #
 # HERITAGE / GEOLOGICAL:
 #   - name: "SiO2"      geant4_name: "G4_SILICON_DIOXIDE"    # X₀ = 12.3 cm
-#   - name: "CaCO3"     geant4_name: "G4_CALCIUM_CARBONATE"  # X₀ = 10.7 cm
-#   - name: "Al2O3"     geant4_name: "G4_ALUMINUM_OXIDE"     # X₀ = 10.2 cm
-#   - name: "Fe2O3"     geant4_name: "G4_FERRIC_OXIDE"       # X₀ = 5.5 cm
+#   - name: "CaCO3"     geant4_name: "G4_CALCIUM_CARBONATE"  # X₀ = 8.7 cm
+#   - name: "Al2O3"     geant4_name: "G4_ALUMINUM_OXIDE"     # X₀ = 7.1 cm
+#   - name: "Fe2O3"     geant4_name: "G4_FERRIC_OXIDE"       # X₀ = 3.3 cm
 #
 # METALS (for contaminant studies):
 #   - name: "Aluminium" geant4_name: "G4_Al"                 # X₀ = 8.9 cm

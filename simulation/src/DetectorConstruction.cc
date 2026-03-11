@@ -79,11 +79,11 @@ void DetectorConstruction::DefineMaterials()
     granite->AddElement(Mg, 0.0178);
 
     // Detector materials
-    // DWC gas: Ar/CO2 80/20 mixture at STP (standard beamline DWC fill)
+    // DWC gas: Ar/CO2 80/20 by mass fraction at STP (standard beamline DWC fill)
     auto Ar = nist->FindOrBuildElement("Ar");
     auto C_el = nist->FindOrBuildElement("C");
     auto O_dwc = nist->FindOrBuildElement("O");
-    auto dwcGas = new G4Material("DWC_ArCO2", 1.72e-3*g/cm3, 3);  // ~80/20 Ar/CO2 density
+    auto dwcGas = new G4Material("DWC_ArCO2", 1.72e-3*g/cm3, 3);  // density approximation for 80/20 by mass; true 80/20-by-volume density ~1.82e-3 g/cm3
     dwcGas->AddElement(Ar, 0.80);
     dwcGas->AddElement(C_el, 0.0545);
     dwcGas->AddElement(O_dwc, 0.1455);

@@ -92,13 +92,13 @@ Highland mode runs automatically on every push. Geant4 mode is **manual only**: 
 ```
 bl4s-beamscan/
 ├── .github/workflows/
-│   ├── highland-predict.yml    ← Runs instantly on every push to requests/
-│   └── geant4-simulate.yml     ← Full Monte Carlo (manual trigger)
+│   ├── highland-predict.yml     ← Runs instantly on every push to requests/
+│   └── geant4-simulate.yml      ← Full Monte Carlo (manual trigger)
 │
 ├── requests/                    ← 👈 STUDENTS EDIT FILES HERE
 │   ├── examples/
 │   │   └── template.yaml        ← Copy this to start
-│   ├── full_classification.yaml ← All 12 materials
+│   ├── full_classification.yaml ← All 11 materials
 │   └── yourname_experiment.yaml ← Your custom study
 │
 ├── results/                     ← 📊 AUTO-GENERATED (don't edit)
@@ -140,7 +140,7 @@ When a fast particle (electron, pion, proton) passes through a material, it gets
 
 **X₀** (radiation length) is the material's fingerprint — it depends on which atoms the material is made of. Heavy atoms (like Cl in PVC, or Fe in iron oxide) give small X₀ and large scattering. Light atoms (like C and H in polyethylene) give large X₀ and small scattering.
 
-### Our 12 Materials
+### Our 11 Materials
 
 | Material | X₀ (cm) | θ₀ at 3 GeV/c (mrad) | Category |
 |----------|---------|----------------------|----------|
