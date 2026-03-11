@@ -12,7 +12,7 @@
 
 ## 1. Motivation to Participate
 
-We are students and teachers from Instituto San Francisco de Asís in Santa Rosa de Calamuchita, Córdoba, Argentina. 2,000 years ago, the Comechingón people carved and shaped the rock of our region — and those artefacts still cannot be studied without risking damage. Today, a single piece of PVC, indistinguishable to the naked eye, can contaminate an entire recycling batch [1]. Same challenge, 2,000 years apart: characterising a material without destroying it. Particle physics offers one answer for both: multiple Coulomb scattering reveals atomic composition through deflection angles alone. Participating in BL4S means we can finally prove it works.
+We are students and teachers from Instituto San Francisco de Asís in Santa Rosa de Calamuchita, Córdoba, Argentina. 2,000 years ago, the Comechingón people carved and shaped the rock of our region — and those artefacts still cannot be studied without risking damage. Today, a single piece of PVC, indistinguishable to the naked eye, can contaminate an entire recycling batch [1]. Same challenge, 2,000 years apart: characterising a material without destroying it. Particle physics offers a single answer to both: multiple Coulomb scattering reveals atomic composition through deflection angles alone. Participating in BL4S would allow us to experimentally validate this approach.
 
 ---
 
