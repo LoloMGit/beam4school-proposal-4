@@ -38,7 +38,7 @@ jobs:
       - name: Build proposal PDF (English)
         run: |
           mkdir -p docs/pdf
-          pandoc BL4S_Proposal_v4.md -o docs/pdf/BL4S_2026_BeamScan_v4.pdf \
+          pandoc BL4S_Proposal.md -o docs/pdf/BL4S_2026_BeamScan.pdf \
             --pdf-engine=xelatex \
             -V mainfont="DejaVu Serif" \
             -V sansfont="DejaVu Sans" \
@@ -52,7 +52,7 @@ jobs:
       - name: Build proposal PDF (Spanish)
         run: |
           if [ -s "BL4S_Proposal_español.md" ]; then
-            pandoc "BL4S_Proposal_español.md" -o docs/pdf/BL4S_2026_BeamScan_v4_es.pdf \
+            pandoc "BL4S_Proposal_español.md" -o docs/pdf/BL4S_2026_BeamScan_es.pdf \
               --pdf-engine=xelatex \
               -V mainfont="DejaVu Serif" \
               -V sansfont="DejaVu Sans" \
