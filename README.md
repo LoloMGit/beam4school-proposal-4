@@ -92,8 +92,8 @@ Highland mode runs automatically on every push. Geant4 mode is **manual only**: 
 ```
 bl4s-beamscan/
 ├── .github/workflows/
-│   ├── highland-predict.yml    ← Runs instantly on every push to requests/
-│   └── geant4-simulate.yml     ← Full Monte Carlo (manual trigger)
+│   ├── highland-predict.yml     ← Runs instantly on every push to requests/
+│   └── geant4-simulate.yml      ← Full Monte Carlo (manual trigger)
 │
 ├── requests/                    ← 👈 STUDENTS EDIT FILES HERE
 │   ├── examples/
