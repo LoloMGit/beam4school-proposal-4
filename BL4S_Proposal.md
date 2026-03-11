@@ -143,9 +143,7 @@ https://doi.org/10.1007/978-3-662-57316-7
 
 <div align="center">
 
-**Built with ❤️ in Córdoba, Argentina for CERN Beamline for Schools 2026**
-
-🇦🇷 → 🔬 → 🌍
+**Built with love in Córdoba, Argentina for CERN Beamline for Schools 2026**
 
 *¡La física fundamental es para todos!*
 
