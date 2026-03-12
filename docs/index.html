@@ -806,7 +806,7 @@ footer a{color:var(--river);text-decoration:none;}
 
     <div class="cta-row reveal">
       <a class="cta-btn primary" href="https://github.com/los-topos-cosmicos/beam4school-proposal">↗ View repository</a>
-      <a class="cta-btn secondary" href="https://github.com/los-topos-cosmicos/beam4school-proposal/blob/main/docs/pdf/BL4S_2026_BeamScan.pdf">Read full proposal</a>
+      <a id="btn-proposal" class="cta-btn secondary" href="https://github.com/los-topos-cosmicos/beam4school-proposal/blob/main/docs/pdf/BL4S_2026_BeamScan.pdf" target="_blank">>Read full proposal</a>
     </div>
   </div>
 </section>
@@ -1575,10 +1575,9 @@ window.addEventListener('load',()=>{
     ['.cta-btn.primary',
      '↗ Ver repositorio',
      '↗ View repository'],
-    ['.cta-btn.secondary',
+    ['#btn-proposal', 
      'Leer propuesta completa',
      'Read full proposal'],
-
     // ── SECTION 08 ──
     ['#agradecimientos .section-label',
      '08 — Agradecimientos',
@@ -1764,6 +1763,7 @@ window.addEventListener('load',()=>{
     if (lbEn && lbEs) {
       lbEn.className = 'lb-flag ' + (lang === 'en' ? 'active' : 'inactive');
       lbEs.className = 'lb-flag ' + (lang === 'es' ? 'active' : 'inactive');
+      
     }
 
     // Single-element entries
@@ -1779,6 +1779,14 @@ window.addEventListener('load',()=>{
     // Re-render dynamic components with new language
     if (typeof initAtlas === 'function') initAtlas();
     if (typeof renderBars === 'function') renderBars();
+    const btnPdf = document.getElementById('btn-proposal');
+    if (btnPdf) {
+      if (lang === 'es') {
+        btnPdf.href = 'https://github.com/los-topos-cosmicos/beam4school-proposal/blob/main/BL4S_Proposal_español.md';
+      } else {
+        btnPdf.href = 'https://github.com/los-topos-cosmicos/beam4school-proposal/blob/main/BL4S_Proposal.md';
+      }
+    }
   }
 
   document.getElementById('lang-btn').addEventListener('click', function() {
